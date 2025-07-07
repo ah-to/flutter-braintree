@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   # s.dependency 'Braintree/Venmo', '~> 5.26.0'
   # s.dependency 'Braintree/PayPal', '~> 6.34.0'
   # s.dependency 'Braintree/ApplePay', '~> 5.6.3'
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
 end
