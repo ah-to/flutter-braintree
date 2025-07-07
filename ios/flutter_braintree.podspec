@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'BraintreeDropIn', '9.14.0'
   s.dependency 'Braintree', '~> 5.26.0'
   # s.dependency 'Braintree/Venmo', '~> 5.26.0'
-  # s.dependency 'Braintree/PayPal', '~> 6.23.3'
+  s.dependency 'Braintree/PayPal', '~> 5.27.3'
   # s.dependency 'Braintree/ApplePay', '~> 5.6.3'
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
