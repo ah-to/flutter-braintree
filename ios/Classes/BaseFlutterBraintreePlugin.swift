@@ -1,7 +1,7 @@
 import Foundation
 import Flutter
 import Braintree
-import BraintreeDropIn
+// import BraintreeDropIn
 
 open class BaseFlutterBraintreePlugin: NSObject {
     internal var isHandlingResult = false;
