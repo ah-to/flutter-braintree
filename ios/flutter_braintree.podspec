@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   # s.dependency 'BraintreeDropIn', '9.14.0'
-  s.dependency 'Braintree', '~> 6.45.0'
+  s.dependency 'Braintree', '~> 6.34.0'
   # s.dependency 'Braintree/Venmo', '~> 5.26.0'
   # s.dependency 'Braintree/PayPal', '~> 5.27.3'
   # s.dependency 'Braintree/ApplePay', '~> 5.6.3'
