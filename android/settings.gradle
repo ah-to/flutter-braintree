@@ -1,1 +1,9 @@
 rootProject.name = 'flutter_braintree'
+
+
+
+sourceControl {
+  gitRepository(URI.create("https://github.com/jamesonwilliams/braintree-android-drop-in.git")) {
+      producesModule("com.braintreepayments.api:drop-in")
+  }
+}
