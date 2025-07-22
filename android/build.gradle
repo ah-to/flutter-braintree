@@ -17,13 +17,14 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url "https://cardinalcommerceprod.jfrog.io/artifactory/android"
-            credentials {
-                username 'braintree_team_sdk'
-                password 'AKCp8jQcoDy2hxSWhDAUQKXLDPDx6NYRkqrgFLRc3qDrayg6rrCbJpsKKyMwaykVL8FWusJpp'
-            }
-        }
+        // maven {
+        //     url "https://cardinalcommerceprod.jfrog.io/artifactory/android"
+        //     credentials {
+        //         username 'braintree_team_sdk'
+        //         password 'AKCp8jQcoDy2hxSWhDAUQKXLDPDx6NYRkqrgFLRc3qDrayg6rrCbJpsKKyMwaykVL8FWusJpp'
+        //     }
+        // }
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -50,7 +51,8 @@ android {
 }
 
 dependencies {
-    implementation 'com.braintreepayments.api:drop-in:6.17.0'
+    // implementation 'com.braintreepayments.api:drop-in:6.17.0'
+    implementation 'com.github.ah-to:braintree-android-drop-in'
     implementation 'com.google.android.gms:play-services-wallet:16.0.0'
     implementation 'androidx.appcompat:appcompat:1.4.0-alpha03'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
